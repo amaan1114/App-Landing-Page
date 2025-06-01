@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  </head>
+
+    
+  
+    <!--Nav Bar-->>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Taskly</a>
+            
+            <!-- Hamburger Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto linksbar">
+                <li class="nav-item">
+                <a class="links nav-link" href="#">Download</a>
+                </li>
+                <li class="nav-item">
+                <a class="links nav-link" href="#Features">Features</a>
+                </li>
+                <li class="nav-item">
+                <a class="links nav-link" href="#How-It-Works">How it Works</a>
+                </li>
+                <li class="nav-item">
+                <a class="links nav-link" href="#about_us">Contact Us</a>
+                </li>
+                
+                
+            </ul>
+            </div>
+        </div>
+        </nav>
+    
+    <!-- Main Bill Board-->
+    <div class="container text-center head">
+        <div class="row justify-content-center ">
+
+
+            <div class="col-auto me-auto">
+            <img src="mobile.png"  class="mobile img-fluid" alt="">
+            </div>
+            <div class="col-auto me-auto">
+            <h1 class="display-1">Taskly To-do list</h1>
+            <div class="col-auto me-auto">
+                <h3>Your own smart to-do list</h3>
+
+            </div>
+            <button type="button" class="btn btn-outline-light" id="Download_App">Download App</button>
+            </div>
+        </div>
+        </div>
+
+    <!-- How it Work-->
+
+
+ <div class="container text-center mt-5 main">
+    <h1 class="maintext mb-4" id="How-It-Works">How it works</h1>
+  <div class="row justify-content-center">
+
+    <!-- Step 1 -->
+    <div class="col-md-4 mb-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="ekruut-sign-up.gif" class="card-img-top" alt="Sign up image">
+        <div class="card-body">
+          <h5 class="card-title">Sign Up</h5>
+          <p class="card-text">Sign up using your details.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="col-md-4 mb-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="giphy.gif" class="card-img-top" alt="Planner view image">
+        <div class="card-body">
+          <h5 class="card-title">Daily Planner View</h5>
+          <p class="card-text">See a visual overview of your day.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="col-md-4 mb-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="R.gif" class="card-img-top" alt="Sync backup image">
+        <div class="card-body">
+          <h5 class="card-title">Sync & Backup</h5>
+          <p class="card-text">Tasks are stored safely and accessible anywhere.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--Features-->
+  <br>
+  <br>
+  <h1 class="maintext mb-4" id="Features">Features</h1>
+  <div class="row justify-content-center">
+    
+    <!-- Step 1 -->
+    <div class="col-md-4 mb-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="daily planner.webp" class="card-img-top" alt="Sign up image">
+        <div class="card-body">
+          <h5 class="card-title">Personalized Daily Planner</h5>
+          <ul class="card-text">
+            <li>
+              ✅ Calendar View – View all tasks by date in a clean calendar layout.
+            </li>
+            <br>
+            <li>
+              ✅ Time Slots – Assign specific times to each task (time blocking).
+            </li>
+            <br>
+            <li>
+              ✅ Drag & Drop Tasks – Easily reorder tasks in the planner.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="col-md-4 mb-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="taskmanagement.png" class="card-img-top" alt="Planner view image">
+        <div class="card-body">
+          <h5 class="card-title">Smart Task Management</h5>
+          <ul class="card-text">
+            <li>
+              ✅ Auto-Suggestions – Get task suggestions based on your habits or previous entries.
+            </li>
+            <br>
+            <li>
+              ✅ Recurring Tasks – Set tasks to repeat daily, weekly, or on custom intervals.
+            </li>
+            <br>
+            <li>
+              ✅ Priority Levels – Label tasks as High, Medium, or Low importance.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="col-md-4 mb-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="Productivity.jpg" class="card-img-top" alt="Sync backup image">
+        <div class="card-body">
+          <h5 class="card-title">Productivity Boosters</h5>
+          <ul class="card-text">
+            <li>
+              ✅ Reminders & Notifications – Alerts before deadlines or at preferred times.
+            </li>
+            <br>
+            <li>
+              ✅ Progress Tracking – Show % of completed tasks or progress bars.
+            </li>
+            <br>
+            <li>
+              ✅ Streaks & Motivation – Visual streaks or motivational quotes for daily completions.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+ <div class="container text-center mt-5 justify-content-center aboutus" id="about_us">
+  <h1 class="h1">📩 Contact Us</h1>
+  <div class="row">
+    <div class="col">📧 Email: <a href="mailto:support@tasklyapp.com">support@tasklyapp.com</a></div>
+    <div class="col">📍 Address: 123 Productivity Street, Taskville, TX 75001</div>
+
+    <!-- Force next columns to break to new line at md breakpoint and up -->
+    <div class="w-100 d-none d-md-block"></div>
+
+    <div class="col">📞 Phone: <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a></div>
+    <div class="col">🕐 Support Hours: Monday – Friday, 9:00 AM – 6:00 PM (EST)</div>
+  </div>
+
+
+ </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
